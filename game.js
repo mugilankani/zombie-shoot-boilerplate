@@ -21,7 +21,7 @@ gameBody.onclick = function(){
   shortGun.pause()
   shortGun.currentTime = 0;
   shortGun.play ()
-  // backgroundAudio.play()
+  backgroundAudio.play()
 }
 
 let backgroundAudio = new Audio("./assets/bgm.mp3")
