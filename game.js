@@ -26,11 +26,12 @@ gameBody.onclick = function(){
 
 let backgroundAudio = new Audio("./assets/bgm.mp3")
 
+backgroundAudio.play()
 
 
 // Iteration 1.3: Add background sound
 
-    // backgroundAudio.loop = true
+    backgroundAudio.loop = true
 
 // Iteration 1.4: Add lives
 
